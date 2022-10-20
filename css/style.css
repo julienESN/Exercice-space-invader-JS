@@ -1,0 +1,125 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.configuration {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0.1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgba(49,73,172,255);
+}
+
+input {
+    text-align: center;
+    border: none;
+}
+
+#grille {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+#valider {
+    background-color: #9a68e5;
+    color: white;
+    padding: 1rem;
+
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+#valider:hover {
+    background-color: #613c97;
+    color: white;
+    cursor: pointer;
+}
+#invader {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6358cc;
+}
+
+table {
+    border-spacing: 0;
+
+}
+
+tr {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.white {
+    background-color: #d2dbe3;
+    border: 2px solid #818e9a;
+}
+
+.black {
+    background-color: black;
+    border: 2px solid #1f262e;
+}
+
+footer {
+    position: absolute;
+    width: 15%;
+    bottom: 0;
+    margin-left: 0.5rem;
+}
+
+#color-container {
+    width: 85%;
+    height: 4rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-color: #4944a3bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+#color-container button {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+#color-container button:hover {
+    cursor: pointer;
+}
+
+.plain {
+    background-color: #d2dbe3 ;
+}
+
+.empty {
+    background-color: #485561;
+}
+
+.light {
+    background-color: #fbc149;
+}
+
+.highlight {
+    background-color: #79eb82;
+}
